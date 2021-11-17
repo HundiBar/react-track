@@ -27,6 +27,8 @@
 //     document.getElementById("root")
 // )
 
+//  save all in JSX and call as just a JS object
+
 const page = (
   <div>
     <h1 className="header">This is JSX</h1>

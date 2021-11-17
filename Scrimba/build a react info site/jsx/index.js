@@ -36,7 +36,19 @@ const page = (
   </div>
 )
 
-ReactDOM.render(
-    page,
-    document.getElementById("root")
+// ReactDOM.render(
+//     page,
+//     document.getElementById("root")
+// )
+
+const navbar = (
+  <nav>
+    <h1> Bob's burgers </h1>
+    <ul>
+      <li>Menu</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
 )
+ReactDOM.render(navbar, document.getElementById('root'))

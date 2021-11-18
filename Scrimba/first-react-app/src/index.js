@@ -8,6 +8,9 @@ const page = (
     <ul>
       <li>Was first released in 2013</li>
       <li>Was originally created by in Jordan Walke</li>
+      <li>Was originally created by in Jordan Walke</li>
+      <li>Was originally created by in Jordan Walke</li>
+      <li>Was originally created by in Jordan Walke</li>
 
     </ul>
   </div>

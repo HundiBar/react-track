@@ -1,15 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import react from 'react'
+import ReactDOM from 'react-dom'
 
-const navbar = (
-  <nav>
-    <h1>Bob's Burgers </h1>
-    <ul>
-      <li>Menu</li>
-      <li>About</li>
-      <li>Contact</li>
-    </ul>
-  </nav>
+const page = (
+
 )
-
-ReactDOM.render(navbar, document.getElementById('root'))

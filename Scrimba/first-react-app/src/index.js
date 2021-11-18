@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 const page = (
   <div>
-    <img src="images/react-logo.png" alt="react logo" width="40px"></img>
+    <img src="images/react-logo.png" alt="react logo" width="40px"/>
     <h1>Fun facts about React</h1>
     <ul>
       <li>Was first released in 2013</li>

@@ -1,6 +1,12 @@
 import react from 'react'
 import ReactDOM from 'react-dom'
 
+function Footer() {
+  return (
+    <footer>© 2021 Abbott development. All rights reserved.</footer>
+  )
+}
+
 function Header() {
   return (
     <header>
@@ -21,7 +27,6 @@ function Page() {
         <li>reason 2</li>
         <li>reason 3</li>
       </ol>
-      <footer>© 2021 Abbott development. All rights reserved.</footer>
     </div>
   )
 }

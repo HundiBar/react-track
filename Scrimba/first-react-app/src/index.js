@@ -1,7 +1,7 @@
 import react from 'react'
 import ReactDOM from 'react-dom'
 
-function RestOfContent() {
+function MainContent() {
   return (
     <div>
       <h1>Reasons im excited to learn React</h1>
@@ -34,7 +34,7 @@ function Page() {
   return (
     <div>
       <Header/>
-      <RestOfContent/>
+      <MainContent/>
       <Footer/>
 
     </div>

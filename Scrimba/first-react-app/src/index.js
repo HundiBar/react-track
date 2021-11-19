@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 function MainContent() {
   return (
-    <div>
+    <div className="main-content">
       <h1>Reasons im excited to learn React</h1>
       <ol>
         <li>reason 1</li>
@@ -24,7 +24,7 @@ function Header() {
   return (
     <header>
       <nav className="nav">
-        <img src="images/react-logo.png" alt="not working"/>
+        <img className="nav-logo" src="images/react-logo.png" alt="not working"/>
         <ul className="nav-items">
           <li>Pricing</li>
           <li>About</li>

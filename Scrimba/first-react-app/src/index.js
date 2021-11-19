@@ -23,8 +23,8 @@ function Footer() {
 function Header() {
   return (
     <header>
-      <nav>
-        <img src="images/react-logo.png" alt="not working" width="40px" />
+      <nav className="nav">
+        <img src="images/react-logo.png" alt="not working"/>
         <ul className="nav-items">
           <li>Pricing</li>
           <li>About</li>

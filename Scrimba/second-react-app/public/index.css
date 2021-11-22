@@ -39,6 +39,7 @@ nav > img {
 .main-content {
   background-color: #282D35;
   height: 100vh;
+  color: white;
 }
 .main-content > h1 {
   font-weight: 700;
@@ -48,8 +49,5 @@ nav > img {
 }
 
 .main-content > ul > li {
-  font-weight: 700;
-  padding-top: 57px;
-  padding-left: 27px;
-  color: #FFFFFF;
+  font-weight: 400;
 }

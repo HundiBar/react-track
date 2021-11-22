@@ -4,6 +4,7 @@
 
 body {
   margin: 0px;
+  font-family: Inter, sans-serif;
 }
 
 nav {
@@ -21,14 +22,12 @@ nav > h3, nav > p {
 
 nav > h3 {
   color: #61DAFB;
-  font-family: "Inter";
   font-weight: 700;
   margin-right: auto;
 }
 
 nav > p {
   color: #DEEBF8;
-  font-family: "Inter";
   font-weight: 600;
 }
 
@@ -42,7 +41,13 @@ nav > img {
   height: 100vh;
 }
 .main-content > h1 {
-  font-family: "Inter";
+  font-weight: 700;
+  padding-top: 57px;
+  padding-left: 27px;
+  color: #FFFFFF;
+}
+
+.main-content > ul > li {
   font-weight: 700;
   padding-top: 57px;
   padding-left: 27px;

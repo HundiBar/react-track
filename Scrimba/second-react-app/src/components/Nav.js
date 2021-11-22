@@ -2,10 +2,11 @@ import React from "react";
 
 function Nav() {
   return (
-    <div className="nav-bar">
-      <img src="././public/images/logo192.png" alt="Ah wrong path"/>
-
-    </div>
+    <nav>
+      <img src="../images/logo192.png" alt="Ah wrong path"/>
+      <h3>ReactFacts</h3>
+      <p>React Course- Project 1</p>
+    </nav>
   )
 }
 

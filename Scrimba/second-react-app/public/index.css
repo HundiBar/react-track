@@ -2,19 +2,8 @@
   box-sizing: border-box;
 }
 
-#root {
-  margin: 0px;
-  padding: 0px;
-}
-
 body {
   margin: 0px;
-}
-
-.container {
-  width: 100%;;
-  margin: 0px;
-  padding: 0px;
 }
 
 nav {
@@ -43,9 +32,19 @@ nav > p {
   font-weight: 600;
 }
 
-
-
 nav > img {
   height: 30px;
   margin-right: 7px;
+}
+
+.main-content {
+  background-color: #282D35;
+  height: 100vh;
+}
+.main-content > h1 {
+  font-family: "Inter";
+  font-weight: 700;
+  padding-top: 57px;
+  padding-left: 27px;
+  color: #FFFFFF;
 }

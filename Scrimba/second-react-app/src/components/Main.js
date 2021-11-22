@@ -2,7 +2,9 @@ import React from "react";
 
 function Main() {
   return (
-    <h1>Main goes here</h1>
+    <div className="main-content">
+      <h1>Fun facts about React</h1>
+    </div>
   )
 }
 export default Main

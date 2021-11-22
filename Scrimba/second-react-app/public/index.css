@@ -1,0 +1,17 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  margin: 0px;
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-bar {
+  background-color: #21222A;
+;
+}

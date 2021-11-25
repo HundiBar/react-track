@@ -9,8 +9,9 @@ export default function Card() {
         <span>5.0</span>
         <span>(6) • </span>
         <span>USA</span>
-
       </div>
+      <p>Life Lessons with Katie Zafaeres</p>
+      <p>From $136 / person</p>
     </div>
   )
 }

@@ -5,13 +5,13 @@ export default function Card() {
     <div className="card">
       <img src="../images/katie-zaferes.png" alt="No Katie" className="card--image"/>
       <div className="card--stats">
-        <img src="../images/star.png" alt="no star"/>
-        <span>5.0</span>
-        <span>(6) • </span>
+        <img src="../images/star.png" alt="no star" className="card--star"/>
+        <span className="gray">5.0</span>
+        <span className="gray">(6) • </span>
         <span>USA</span>
       </div>
       <p>Life Lessons with Katie Zafaeres</p>
-      <p>From $136 / person</p>
+      <p><span className="bold">From $136 / person<span/></span></p>
     </div>
   )
 }

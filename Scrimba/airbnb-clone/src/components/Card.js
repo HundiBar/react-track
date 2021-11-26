@@ -2,6 +2,7 @@ import React from "react";
 
 export default function Card() {
   return (
+    // pass props as a parameter
     <div className="card">
       <img src="../images/katie-zaferes.png" alt="No Katie" className="card--image"/>
       <div className="card--stats">

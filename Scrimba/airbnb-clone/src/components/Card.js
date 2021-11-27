@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function Card() {
+export default function Card(props) {
   return (
     // pass props as a parameter
     // use props.(name set in props app.js)
     <div className="card">
-      <img src="../images/katie-zaferes.png" alt="No Katie" className="card--image"/>
+      <img src={`../images/${props.img}`} alt="No Katie" className="card--image"/>
       <div className="card--stats">
         <img src="../images/star.png" alt="no star" className="card--star"/>
         <span className="gray">5.0</span>

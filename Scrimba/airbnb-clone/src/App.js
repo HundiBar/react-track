@@ -13,7 +13,6 @@ export default function App() {
         reviewCount = {item.stats.reviewCount}
         location = {item.location}
         price = {item.price}
-
       />
     )
   })
@@ -21,7 +20,7 @@ export default function App() {
     <div>
       <Navbar />
       <Hero />
-      <Card />
+      {cards}
     </div>
   )
 }

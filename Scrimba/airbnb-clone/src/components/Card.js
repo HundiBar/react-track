@@ -8,12 +8,13 @@ export default function Card(props) {
       <img src={`../images/${props.img}`} alt="No Katie" className="card--image"/>
       <div className="card--stats">
         <img src="../images/star.png" alt="no star" className="card--star"/>
-        <span className="gray">5.0</span>
-        <span className="gray">(6) • </span>
-        <span>USA</span>
+        <span className="gray">({props.rating})</span>
+        <span className="gray">({props.reviewCount}) • </span>
+        <span>{props.location}</span>
       </div>
-      <p>Life Lessons with Katie Zafaeres</p>
-      <p><span className="bold">From $136 / person<span/></span></p>
+      <p>{props.title}</p>
+      <p><span className="bold">From ${props.price}</span> / person</p>
+
     </div>
   )
 }

@@ -10,6 +10,7 @@ export default function App() {
       < Card
         // use key as something unique to be able to pass the props
         key={item.id}
+        //ES6 spread syntax. Takes property of data, set separate prop for each for us.
         item={item}
       />
     )

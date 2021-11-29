@@ -1,9 +1,8 @@
 import React from "react";
 
 export default function Card(props) {
+  console.log(props)
   return (
-    // pass props as a parameter
-    // use props.(name set in props app.js)
     <div className="card">
       <img src={`../images/${props.img}`} alt="No Katie" className="card--image"/>
       <div className="card--stats">

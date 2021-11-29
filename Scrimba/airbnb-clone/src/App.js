@@ -13,6 +13,7 @@ export default function App() {
         reviewCount = {item.stats.reviewCount}
         location = {item.location}
         price = {item.price}
+        title = {item.title}
       />
     )
   })

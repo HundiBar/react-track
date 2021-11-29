@@ -10,14 +10,7 @@ export default function App() {
       < Card
         // use key as something unique to be able to pass the props
         key={item.id}
-
-        img = {item.coverImg}
-        rating = {item.stats.rating}
-        reviewCount = {item.stats.reviewCount}
-        location = {item.location}
-        price = {item.price}
-        title = {item.title}
-        openSpots={item.openSpots}
+        item={item}
       />
     )
   })

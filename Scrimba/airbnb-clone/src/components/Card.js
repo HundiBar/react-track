@@ -1,6 +1,7 @@
 import React from "react"
 
 export default function Card(props) {
+  // conditional rendering using JS outside the JSX
   let badgeText
   if (props.item.openSpots === 0) {
     badgeText = "SOLD OUT"

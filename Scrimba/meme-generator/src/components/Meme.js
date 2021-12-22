@@ -34,7 +34,7 @@ export default function Meme() {
     fetch('https://api.imgflip.com/get_memes')
     .then(response =>  response.json())
     .then(data => console.log(data));
-  },[meme])
+  },[])
 
   return (
     <main>

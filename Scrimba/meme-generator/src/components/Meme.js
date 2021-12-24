@@ -33,6 +33,7 @@ export default function Meme() {
     .then(response =>  response.json())
     .then(data => setAllMemes(data.data.memes));
   },[])
+  // secondary array takes the dependencies, so if outside info needs to change then effect needs to rerender
 
 
 

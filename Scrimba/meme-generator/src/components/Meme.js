@@ -28,6 +28,7 @@ export default function Meme() {
     }))
   }
 
+  // useEffect starts with a function as first param
   React.useEffect(()=> {
     fetch('https://api.imgflip.com/get_memes')
     .then(response =>  response.json())
